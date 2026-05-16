@@ -26,7 +26,7 @@ jobs:
       - name: Install Pnpm
         uses: pnpm/action-setup@v4 # 這裡改用新版 setup
         with:
-          version: 9
+          version: 9.14.4
 
       - name: Setup Node
         uses: actions/setup-node@v4
