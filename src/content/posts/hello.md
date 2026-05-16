@@ -1,7 +1,7 @@
 ---
 title: Hello World!
 subtitle: '使用Hexo + github pages 架設個人網站'
-image: images/bongo cat.png
+cover_image: images/bongo cat.png
 ---
 
 使用 Hexo + github pages 架設個人網站
@@ -58,13 +58,14 @@ Key: 直接貼上(ctrl/command + v)
 
 ##### 8.修改設定檔
 打開blog > _config.yml找到deploy: 修改成
-
+```yaml
 deploy:
   type: git
   repository: git@github.com:使用者名稱/使用者名稱.github.io.git
   branch: main
-
+  ```
 (每個冒號後皆有半型空格)
+
 ##### 9.Themes
 前往[Hexo官網的Themes](https://hexo.io/themes/#single_page "游標顯示")選擇主題模板點擊名稱進入github。
 在blog下的終端機輸入`git clone https://github.com/主題資料夾名稱-theme/hexo-theme-主題資料夾名稱 themes/主題資料夾名稱`
