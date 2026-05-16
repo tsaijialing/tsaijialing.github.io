@@ -30,7 +30,7 @@ export default defineConfig({
 	site: "https://tsaijialing.github.io",
 	build: { format: 'file' },
 	base: "/",
-	trailingSlash: "always",
+	trailingSlash: "never",
 	integrations: [
 		tailwind({
 			nesting: true,
