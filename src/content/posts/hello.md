@@ -1,7 +1,11 @@
 ---
-title: Hello World!
-subtitle: '使用Hexo + github pages 架設個人網站'
-cover_image: images/bongo cat.png
+title: 'Hello World!'
+published: 2026-05-17
+description: '使用 Hexo + github pages 架設個人網站'
+image: ''
+tags: ['教學', '網站', '筆記']
+category: '指南'
+draft: false
 ---
 
 使用 Hexo + github pages 架設個人網站
