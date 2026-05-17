@@ -1,19 +1,23 @@
 ---
-import MainLayout from '../layouts/MainLayout.astro'
-import i18n from '../i18n/i18n'
-import { I18nKey } from '../i18n/enum'
+import { getEntry, render } from "astro:content";
+import Markdown from "@components/misc/Markdown.astro";
+import MainGridLayout from "../layouts/MainGridLayout.astro";
 
-// 這裡的內容可以自己修改
+// 讀取 src/content/spec/links.md 的內容
+const linksPost = await getEntry("spec", "links");
+
+if (!linksPost) {
+	throw new Error("Links page content not found");
+}
+
+const { Content } = await render(linksPost);
 ---
-
-<MainLayout title="Links" description="My Friends">
+<MainGridLayout title="Links" description="My Friends">
     <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
-        <div class="card-base w-full p-6 text-neutral-700 dark:text-neutral-300">
-            <h1 class="text-3xl font-bold mb-4">Links</h1>
-            
-            <p class="mb-4">歡迎來到我的友站頁面！</p>
-            
-            <p>這裡之後可以放其他人的網站連結或你想說的話...</p>
+        <div class="card-base z-10 px-9 py-6 relative w-full ">
+            <Markdown class="mt-2">
+                <Content />
+            </Markdown>
         </div>
     </div>
-</MainLayout>
+</MainGridLayout>
