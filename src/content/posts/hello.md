@@ -6,6 +6,19 @@ description: '使用 Hexo + github pages 架設個人網站'
 image: ''
 category: '指南'
 draft: false
+giscus:
+  enable: true
+  repo: "tsaijialing/tsaijialing.github.io"
+  repo_id: "R_kgDOSeKBJA"
+  category: "Announcements"
+  category_id: "DIC_kwDOSeKBJM4C9PNk"
+  mapping: "pathname"
+  strict: "0"
+  reactions_enabled: "1"
+  emit_metadata: "0"
+  input_position: "top"
+  theme: "preferred_color_scheme"
+  lang: "zh-TW"
 ---
 
 使用 Hexo + github pages 架設個人網站
