@@ -129,18 +129,3 @@ hexo clean && hexo g && hexo d
 
 參考資料:[十分鐘小魔法 - 不需要寫程式也不用花錢，10 分鐘架設出專屬於自己的部落格，建立個人品牌 | 使用 Hexo + GitHub](https://youtu.be/WJk765ztHUg?si=A2jDyXNRJ9Zr-hac "游標顯示")
 
-<script src="https://giscus.app/client.js"
-        data-repo="tsaijialing/tsaijialing.github.io"
-        data-repo-id="R_kgDOSeKBJA"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOSeKBJM4C9PNk"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="zh-TW"
-        crossorigin="anonymous"
-        async>
-</script>
