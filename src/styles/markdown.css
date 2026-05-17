@@ -20,24 +20,16 @@
     }
 
     a:not(.no-styling) {
-        position: relative;
-        background: none;
-        font-weight: 500;
-        color: var(--primary);
-        text-decoration: underline;
-        text-decoration-color: var(--link-underline);
-        text-decoration-thickness: 1px;
-        text-decoration-style: dashed;
-        text-underline-offset: 4px;
+        @apply relative bg-none link font-medium text-[var(--primary)]
+        underline decoration-[var(--link-underline)] decoration-1 decoration-dashed underline-offset-4;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
         display: inline-block;
-        transition: all 0.2s ease-in-out;
     
         &:hover, &:active {
-            text-decoration-color: transparent;
+            @apply decoration-transparent;
             background: var(--btn-plain-bg-hover);
-            border-bottom: 1px dashed var(--primary); /* 改用專案穩定的 primary 顏色防止變數遺失 */
+            border-bottom: 1px dashed var(--link-hover);
             text-decoration: none;
         }
     }
@@ -69,29 +61,7 @@
 
     .copy-btn {
         all: initial;
-        opacity: 0;
-        position: absolute;
-        height: 2rem;
-        width: 2rem;
-        top: 0.75rem;
-        right: 0.75rem;
-        font-size: 0.875rem;
-        border-radius: 0.5rem;
-        transition: all 0.2s ease-in-out;
-        z-index: 20;
-        cursor: pointer;
-        background-color: rgba(30, 30, 30, 0.8); /* 深色按鈕背景 */
-        border: 1px solid rgba(255, 255, 255, 0.1);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-        &:active {
-            transform: scale(0.9);
-        }
-        &:hover {
-            background-color: rgba(50, 50, 50, 0.9);
-        }
+        @apply btn-regular-dark opacity-0 shadow-lg shadow-black/50 absolute active:scale-90 h-8 w-8 top-3 right-3 text-sm rounded-lg transition-all ease-in-out z-20 cursor-pointer;
     }
     .frame:hover .copy-btn {
         opacity: 1;
