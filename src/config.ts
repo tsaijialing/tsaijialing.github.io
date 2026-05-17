@@ -46,7 +46,7 @@ export const navBarConfig: NavBarConfig = {
 		LinkPreset.About,
 		{
 			name: "GitHub",
-			url: "https://github.com/saicaca/fuwari", // Internal links should not include the base path, as it is automatically added
+			url: "https://github.com/tsaijialing", // Internal links should not include the base path, as it is automatically added
 			external: true, // Show an external link icon and will open in a new tab
 		},
 	],
@@ -58,11 +58,11 @@ export const profileConfig: ProfileConfig = {
 	bio: "Welcome",
 	links: [
 		{
-			name: "Discord",
+			name: "X",
 			icon: "fa6-brands:twitter", // Visit https://icones.js.org/ for icon codes
 			// You will need to install the corresponding icon set if it's not already included
 			// `pnpm add @iconify-json/<icon-set-name>`
-			url: "discordapp.com/users/1364463806897455104",
+			url: "https://x.com/tsaijialing1114",
 		},
 		{
 			name: "Steam",

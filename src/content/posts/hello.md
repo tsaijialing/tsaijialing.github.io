@@ -2,7 +2,7 @@
 title: 'Hello World!'
 published: 2026-05-17
 description: '使用 Hexo + github pages 架設個人網站'
-image: 'assets/images/hello world.png'
+image: './assets/images/helloworld.png'
 tags: ['教學', '網站', '筆記']
 category: '指南'
 draft: false
