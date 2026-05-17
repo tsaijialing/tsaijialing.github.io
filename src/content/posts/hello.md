@@ -3,7 +3,7 @@ title: 'Hello World!'
 slug: 'hello'
 published: 2026-05-17
 description: '使用 Hexo + github pages 架設個人網站'
-image: '/images/helloworld.png'
+image: ''
 category: '指南'
 draft: false
 ---
