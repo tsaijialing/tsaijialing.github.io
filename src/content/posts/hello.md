@@ -50,12 +50,13 @@ hexo server
 hexo clean
 hexo s
 ```
+重新整理`http://localhost:4000/` 顯示網頁更新。
+ 
 若要建立新文章，在blog下的終端機中輸入
 ```bash
 hexo new filename # filename輸入檔名
 ``` 
-重新整理`http://localhost:4000/` 顯示網頁更新。
-
+ 
 
 ## 5.使用github pages
 註冊[github](https://github.com/ "游標顯示")帳號，點擊「create repository」，在 repository name 輸入 `使用者名稱.github.io`。
