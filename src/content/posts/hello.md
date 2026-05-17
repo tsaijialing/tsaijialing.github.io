@@ -2,7 +2,7 @@
 title: 'Hello World!'
 published: 2026-05-17
 description: '使用 Hexo + github pages 架設個人網站'
-image: ''
+image: 'assets/images/hello world.png'
 tags: ['教學', '網站', '筆記']
 category: '指南'
 draft: false
@@ -13,7 +13,11 @@ draft: false
 
 ## 1.安裝Node.js
 前往[Node.js官網](https://nodejs.org/zh-tw/download "游標顯示")安裝。  
-安裝完成後開啟終端機(terminal)輸入npm，安裝成功會跳出相關資訊。
+安裝完成後開啟終端機(terminal)輸入
+```bash
+npm
+```
+安裝成功會跳出相關資訊。
  
 
 ## 2.安裝Hexo
