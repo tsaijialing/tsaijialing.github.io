@@ -20,16 +20,24 @@
     }
 
     a:not(.no-styling) {
-        @apply relative bg-none link font-medium text-[var(--primary)]
-        underline decoration-[var(--link-underline)] decoration-1 decoration-dashed underline-offset-4;
+        position: relative;
+        background: none;
+        font-weight: 500;
+        color: var(--primary);
+        text-decoration: underline;
+        text-decoration-color: var(--link-underline);
+        text-decoration-thickness: 1px;
+        text-decoration-style: dashed;
+        text-underline-offset: 4px;
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
         display: inline-block;
+        transition: all 0.2s ease-in-out;
     
         &:hover, &:active {
-            @apply decoration-transparent;
+            text-decoration-color: transparent;
             background: var(--btn-plain-bg-hover);
-            border-bottom: 1px dashed var(--link-hover);
+            border-bottom: 1px dashed var(--primary); /* 改用專案穩定的 primary 顏色防止變數遺失 */
             text-decoration: none;
         }
     }
