@@ -63,7 +63,7 @@ hexo new filename # filename輸入檔名
 ls -al ~/.ssh
 ssh-keygen -t ed25519 -C "email@email.com"` # 改成你註冊github的email
 pbcopy < ~/.ssh/id_ed25519.pub # mac
-windows:Get-Content ~\.ssh\id_ed25519.pub | Set-Clipboard # windows
+windows:Get-Content ~\.ssh\id_ed25519.pubSet-Clipboard # windows
 ```
 開啟github > 個人頭像 > setting > SSH and GPG keys  
 點擊New SSH key  
