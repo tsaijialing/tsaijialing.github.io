@@ -17,7 +17,7 @@ draft: false
 npm
 ```
 安裝成功會跳出相關資訊。
- 
+  
 
 ## 2.安裝Hexo
 [Hexo官網](https://hexo.io/zh-tw/ "游標顯示")
