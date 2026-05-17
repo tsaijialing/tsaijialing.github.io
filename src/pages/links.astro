@@ -1,0 +1,19 @@
+---
+import MainLayout from '../layouts/MainLayout.astro'
+import i18n from '../i18n/i18n'
+import { I18nKey } from '../i18n/enum'
+
+// 這裡的內容可以自己修改
+---
+
+<MainLayout title="Links" description="My Friends">
+    <div class="flex w-full rounded-[var(--radius-large)] overflow-hidden relative min-h-32">
+        <div class="card-base w-full p-6 text-neutral-700 dark:text-neutral-300">
+            <h1 class="text-3xl font-bold mb-4">Links</h1>
+            
+            <p class="mb-4">歡迎來到我的友站頁面！</p>
+            
+            <p>這裡之後可以放其他人的網站連結或你想說的話...</p>
+        </div>
+    </div>
+</MainLayout>
