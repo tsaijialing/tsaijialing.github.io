@@ -141,10 +141,3 @@ hexo clean && hexo g && hexo d
 
 
 參考資料:[十分鐘小魔法 - 不需要寫程式也不用花錢，10 分鐘架設出專屬於自己的部落格，建立個人品牌 | 使用 Hexo + GitHub](https://youtu.be/WJk765ztHUg?si=A2jDyXNRJ9Zr-hac "游標顯示")
-
-<GiscusComment
-  repo="tsaijialing/tsaijialing.github.io"
-  repoId="R_kgDOSeKBJA"
-  category="Announcements"
-  categoryId="DIC_kwDOSeKBJM4C9PNk"
-/>
