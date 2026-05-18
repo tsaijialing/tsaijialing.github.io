@@ -11,24 +11,27 @@ draft: false
 使用 giscus 為 fuwari 新增評論系統
 
 
-## 1.取得儲存庫連結
+## 1.下載giscus應用程式
 前往[giscus官網](https://giscus.app/zh-TW "游標顯示")下載giscus應用程式
-啟用[discussions](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/enabling-or-disabling-github-discussions-for-a-repository "游標顯示")
 
 
 ## 2.公開儲存庫
-前往[github](https://github.com/ "游標顯示") > Repositories 若`使用者名稱.github.io`右邊顯示`Public`代表儲存庫已公開
-未公開則點擊`使用者名稱.github.io` > Settings > Features > 打開 Discussions 
-複製儲存庫連結(使用者名稱/使用者名稱.github.io)貼上至[giscus官網](https://giscus.app/zh-TW "游標顯示")
+前往[github](https://github.com/ "游標顯示") > Repositories 若`使用者名稱.github.io`右邊顯示`Public`代表儲存庫已公開  
+未公開則點擊`使用者名稱.github.io` > Settings > Danger Zone > Change repository visibility > Change visibility > Change to public
 
 
-## 3.設定 discussion
-開啟 Discussion 的標題包含頁面的路徑名稱
-Discussion 分類選擇 公告 (announcements)
-功能開啟 啟用主文上的反應功能 (reaction) 、 將留言框置於在留言上方
+## 3.啟用 Discussions 功能
+前往[github](https://github.com/ "游標顯示") > Repositories > `使用者名稱.github.io` > Settings > Features > 打開 Discussions
 
 
-## 4.新增評論系統
+## 4.設定 discussion
+複製儲存庫連結(使用者名稱/使用者名稱.github.io)貼上至[giscus官網](https://giscus.app/zh-TW "游標顯示")  
+開啟 「Discussion 的標題包含頁面的路徑名稱」  
+Discussion 分類選擇 「公告 (announcements)」  
+功能開啟「啟用主文上的反應功能 (reaction)」「 將留言框置於在留言上方」  
+
+
+## 5.新增評論系統
 打開 src > pages > posts > [...slug].astro
 在 </MainGridLayout> 行上方加入
 ```Js
@@ -70,7 +73,7 @@ Discussion 分類選擇 公告 (announcements)
 (空白處自行填入數據)
 
 
-## 5.上架Blog
+## 6.上架Blog
 儲存檔案後在終端機輸入
 ```bash
 git add .
@@ -79,7 +82,7 @@ git push origin main
 ```
 
 
-## 6.成功架設評論系統
+## 7.成功架設評論系統
 前往Blog重新整理
 
 
