@@ -6,6 +6,7 @@ description: '使用 Hexo + github pages 架設個人網站'
 image: ''
 category: '教學'
 draft: false
+tags: [blog, hexo, 筆記, 教學]
 ---
 
 使用 Hexo + github pages 架設個人網站

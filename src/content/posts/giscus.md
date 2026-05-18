@@ -6,7 +6,7 @@ description: '使用 giscus 為 fuwari 新增評論系統'
 image: ''
 category: '教學'
 draft: false
-tags: [blog, 筆記, 教學]
+tags: [blog, giscus, 筆記, 教學]
 ---
 
 使用 giscus 為 fuwari 新增評論系統
@@ -25,7 +25,7 @@ tags: [blog, 筆記, 教學]
 前往[github](https://github.com/ "游標顯示") > Repositories > `使用者名稱.github.io` > Settings > Features > 打開 Discussions
 
 
-## 4.設定 discussion
+## 4.設定 Discussion
 複製儲存庫連結(使用者名稱/使用者名稱.github.io)貼上至[giscus官網](https://giscus.app/zh-TW "游標顯示")  
 開啟 「Discussion 的標題包含頁面的路徑名稱」  
 Discussion 分類選擇 「公告 (announcements)」  
