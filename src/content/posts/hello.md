@@ -4,7 +4,7 @@ slug: 'hello'
 published: 2026-05-17
 description: '使用 Hexo + github pages 架設個人網站'
 image: ''
-category: '指南'
+category: '教學'
 draft: false
 ---
 
