@@ -34,7 +34,7 @@ Discussion 分類選擇 公告 (announcements)
 在 </MainGridLayout> 行上方加入
 ```Js
                 <Icon name="material-symbols:chevron-right-rounded" class="text-[2rem] text-[var(--primary)]" />
-            </div>}
+            </div>
         </a>
     </div>
 
