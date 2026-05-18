@@ -6,6 +6,7 @@ description: '使用 giscus 為 fuwari 新增評論系統'
 image: ''
 category: '教學'
 draft: false
+tags: [blog, 筆記, 教學]
 ---
 
 使用 giscus 為 fuwari 新增評論系統
